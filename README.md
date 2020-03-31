@@ -8,7 +8,7 @@ Assets are made from a folder containing a set of preservation files and an opti
 The python script is controlled by a properties file containing the asset attributes
 
 `
-AssetSection]
+[AssetSection]
 asset.Title=
 asset.Description=
 asset.SecurityTag=
