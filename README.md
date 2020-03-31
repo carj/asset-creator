@@ -36,24 +36,47 @@ asset.identifier.key=
 asset.identifier.value=
 ```
 
+For example:
+
 The Title of the asset as shown in Explorer
 ```
-asset.Title=
+asset.Title=Adventures of Huckleberry Finn
 ```
 The Description of the asset as shown in Explorer
 ```
-asset.Description=
+asset.Description=A novel by Mark Twain, first published in the United Kingdom in December 1884.
 ```
 The SecurityTag of the asset
 ```
-asset.SecurityTag=
+asset.SecurityTag=open
 ```
 The reference of the parent folder in Explorer
 ```
-asset.Parent=
+asset.Parent=992ce1b2-9ccc-4a66-ad38-7f86526e146b
 ```
-A folder containing the preservation files which make up the multi-file asset 
+A folder containing the preservation files which make up the the preservation representatio of the nmulti-file asset 
 ```
-preservation.files.folder=
+preservation.files.folder=/mnt/books/Twain/Finn/Tiffs/
 ```
+A folder where the complete SIP is export to
+```
+asset.export.folder=/mnt/sips/export
+```
+A folder containing the access files which make up the access representation of the multi-file asset 
+```
+access.files.folder=/mnt/books/Twain/Finn/PDFs/
+```
+An optional label on the preservation content objects
+```
+preservation.content.object=Scanned TIFF Images
+```
+An optional label on the access content objects, only used if the access representation is specfied
+```
+access.content.object.description=Scanned JPG Images
+```
+An optional label on the access content objects, only used if the access representation is specfied
+```
+access.content.object.description=Scanned JPG Images
+```
+
 
