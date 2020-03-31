@@ -36,7 +36,24 @@ asset.identifier.key=
 asset.identifier.value=
 ```
 
+The Title of the asset as shown in Explorer
 ```
 asset.Title=
 ```
-The Title of the asset as shown in Explorer
+The Description of the asset as shown in Explorer
+```
+asset.Description=
+```
+The SecurityTag of the asset
+```
+asset.SecurityTag=
+```
+The reference of the parent folder in Explorer
+```
+asset.Parent=
+```
+A folder containing the preservation files which make up the multi-file asset 
+```
+preservation.files.folder=
+```
+
