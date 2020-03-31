@@ -36,3 +36,7 @@ asset.identifier.key=
 asset.identifier.value=
 ```
 
+```
+asset.Title=
+```
+The Title of the asset as shown in Explorer
