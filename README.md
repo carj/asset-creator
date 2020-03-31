@@ -54,7 +54,7 @@ The reference of the parent folder in Explorer
 ```
 asset.Parent=992ce1b2-9ccc-4a66-ad38-7f86526e146b
 ```
-A folder containing the preservation files which make up the the preservation representation of the nmulti-file asset 
+A folder containing the preservation files which make up the the preservation representation of the multi-file asset 
 ```
 preservation.files.folder=/mnt/books/Twain/Finn/Tiffs/
 ```
