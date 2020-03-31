@@ -54,7 +54,7 @@ The reference of the parent folder in Explorer
 ```
 asset.Parent=992ce1b2-9ccc-4a66-ad38-7f86526e146b
 ```
-A folder containing the preservation files which make up the the preservation representatio of the nmulti-file asset 
+A folder containing the preservation files which make up the the preservation representation of the nmulti-file asset 
 ```
 preservation.files.folder=/mnt/books/Twain/Finn/Tiffs/
 ```
@@ -74,9 +74,28 @@ An optional label on the access content objects, only used if the access represe
 ```
 access.content.object.description=Scanned JPG Images
 ```
-An optional label on the access content objects, only used if the access representation is specfied
+An optional label on the preservation generation
 ```
-access.content.object.description=Scanned JPG Images
+preservation.generation.label=
 ```
-
+An optional label on the access generation
+```
+access.generation.label=
+```
+The namespace of any optional descriptive metadata attached to the asset
+```
+asset.metadata.namespace=http://purl.org/dc/elements/1.1/
+```
+The path to an optional XML file containing the asset descriptive metadata
+```
+asset.metadata.xmlfile=/mnt/books/Twain/Finn/DublinCore.xml
+```
+The key for an optional asset external identifier
+```
+asset.identifier.key=ISBN
+```
+The value for an optional asset external identifier
+```
+asset.identifier.value= 978-3-16-148410-0
+```
 
