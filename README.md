@@ -58,11 +58,11 @@ A folder containing the preservation files which make up the the preservation re
 ```
 preservation.files.folder=/mnt/books/Twain/Finn/Tiffs/
 ```
-A folder where the complete SIP is export to
+A folder where the complete SIP is exported to
 ```
 asset.export.folder=/mnt/sips/export
 ```
-A folder containing the access files which make up the access representation of the multi-file asset 
+A folder containing the optional access files which make up the second (access) representation of the multi-file asset 
 ```
 access.files.folder=/mnt/books/Twain/Finn/PDFs/
 ```
