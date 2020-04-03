@@ -3,6 +3,8 @@ Create multi-part Preservica assets.
 
 Creates a ZIP format submission containing 1 Preservica multi-part asset.
 
+The script can also optionally upload the ZIP directly to Preservica using the ingest API.
+
 Assets are made from a folder containing a set of preservation files and an optional second folder containing access files.
 
 The python script is controlled by a properties file containing the asset attributes
@@ -34,6 +36,13 @@ asset.metadata.xmlfile=
 [OptionalAssetIdentifierSection]
 asset.identifier.key=
 asset.identifier.value=
+
+[OptionalAPIUploadSection]
+user.domain=
+user.username=
+user.password=
+user.tenant=
+
 ```
 
 For example:
@@ -99,3 +108,26 @@ The value for an optional asset external identifier
 asset.identifier.value= 978-3-16-148410-0
 ```
 
+###### Upload the ZIP package automatically into Preservica using the API
+
+If these values are left empty the ZIP is exported, but not uploaded.
+
+The Preservica server domain prefix (e.g. eu/us/au/ca)
+```
+user.domain=eu
+```
+
+The Preservica tenant your user account belongs to
+```
+user.tenant=TENANT
+```
+
+Your Preservica account username
+```
+user.username=test@test.com
+```
+
+Your Preservica account password
+```
+user.password=xyz12345
+```
